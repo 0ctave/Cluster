@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.geometry.Insets?>
+<?import java.net.URL?>
+<BorderPane fx:id="header" id="header" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" maxHeight="55" prefHeight="55" BorderPane.alignment="CENTER" fx:controller="fr.octave.cluster.controller.Header">
+    <stylesheets>
+        <URL value="@/styles/control.css" />
+    </stylesheets>
+    <center>
+        <Label text="Cluster" textFill="white" BorderPane.alignment="CENTER" />
+    </center>
+    <right>
+        <Button id="settingsUI" onAction="#loadSettings" maxHeight="24" maxWidth="24" minHeight="24" minWidth="24" mnemonicParsing="false" BorderPane.alignment="CENTER">
+            <BorderPane.margin>
+                <Insets right="8.0" />
+            </BorderPane.margin>
+        </Button>
+    </right>
+    <left>
+        <Button id="profileUI" onAction="#loadProfile" maxHeight="24" maxWidth="24" minHeight="24" minWidth="24" mnemonicParsing="false" BorderPane.alignment="CENTER">
+            <BorderPane.margin>
+                <Insets left="8.0" />
+            </BorderPane.margin>
+        </Button>
+    </left>
+</BorderPane>

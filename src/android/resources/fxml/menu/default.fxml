@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.StackPane?>
+
+<AnchorPane id="default" minHeight="-Infinity" minWidth="-Infinity" xmlns="http://javafx.com/javafx/8.0.172-ea">
+    <stylesheets>
+        <URL value="@/styles/default.css" />
+    </stylesheets>
+   <children>
+        <BorderPane>
+         <center>
+            <StackPane prefHeight="150.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+               <children>
+                      <Label id="errorText" text="Il y a eu une erreur en chargant la page" />
+               </children>
+            </StackPane>
+         </center>
+        </BorderPane>
+   </children>
+    
+</AnchorPane>

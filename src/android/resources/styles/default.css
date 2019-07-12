@@ -1,0 +1,15 @@
+#default {
+    -fx-background-color: rgb(38, 38, 38);
+}
+
+#error {
+    -fx-background-image: url("/images/new.png");
+    -fx-background-size: 70px 70px;
+    -fx-background-color: rgba(255, 255, 255, 0);
+}
+
+#errorText {
+    -fx-text-fill: white;
+    -fx-text-alignment: center;
+    -fx-alignment: center;
+}
