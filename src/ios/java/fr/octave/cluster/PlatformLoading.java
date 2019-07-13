@@ -1,4 +1,4 @@
-package fr.octave.luster;
+package fr.octave.cluster;
 
 import javafx.stage.Stage;
 
